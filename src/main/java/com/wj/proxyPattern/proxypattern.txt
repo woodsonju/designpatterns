@@ -1,0 +1,11 @@
+Dans le modèle de proxy, une classe représente la fonctionnalité d'une autre classe. 
+Ce type de modèle de conception relève du modèle structurel.
+Dans le modèle de proxy, nous créons un objet ayant un objet original pour interfacer 
+ses fonctionnalités avec le monde extérieur.
+
+LA MISE EN OEUVRE
+Nous allons créer une interface Image et des classes concrètes implémentant l' interface Image. 
+ProxyImage est une classe proxy permettant de réduire l'encombrement mémoire du chargement d'objet RealImage.
+
+ProxyPatternDemo , notre classe de démonstration, utilisera ProxyImage pour charger et afficher un objet Image selon
+ses besoins.
