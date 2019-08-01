@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.wj.factoryPattern.shape</OriginalElement>
+  <nodes>
+    <node x="124.5" y="0.0">com.wj.factoryPattern.shape.Shape</node>
+    <node x="0.0" y="81.0">com.wj.factoryPattern.shape.Square</node>
+    <node x="240.0" y="81.0">com.wj.factoryPattern.shape.Rectangle</node>
+    <node x="120.0" y="81.0">com.wj.factoryPattern.shape.Circle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.wj.factoryPattern.shape.Circle" target="com.wj.factoryPattern.shape.Shape">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.wj.factoryPattern.shape.Square" target="com.wj.factoryPattern.shape.Shape">
+      <point x="0.0" y="-15.5" />
+      <point x="50.0" y="56.0" />
+      <point x="139.66666666666666" y="56.0" />
+      <point x="-30.333333333333343" y="15.5" />
+    </edge>
+    <edge source="com.wj.factoryPattern.shape.Rectangle" target="com.wj.factoryPattern.shape.Shape">
+      <point x="0.0" y="-15.5" />
+      <point x="303.5" y="56.0" />
+      <point x="200.33333333333331" y="56.0" />
+      <point x="30.333333333333314" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="63.0" />
+  <SelectedNodes>
+    <node>com.wj.factoryPattern.shape.Circle</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

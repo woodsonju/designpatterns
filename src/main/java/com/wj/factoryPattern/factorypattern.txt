@@ -1,0 +1,11 @@
+Le modèle factory est l'un des modèles de conception les plus utilisés en Java. Ce type de modèle de conception 
+est associé à un modèle de création, car il constitue l’un des meilleurs moyens de créer un objet.
+
+Dans le modèle Factory, nous créons un objet sans exposer la logique de création au client et faisons référence au 
+nouvel objet créé à l'aide d'une interface commune.
+
+LA MISE EN OEUVRE
+Nous allons créer une interface Shape et des classes concrètes implémentant l' interface Shape . Une classe d'usine
+ShapeFactory est définie à l'étape suivante.
+FactoryPatternDemo , notre classe de démonstration utilisera ShapeFactory pour obtenir un objet Shape. Il transmettra
+les informations ( CIRCLE / RECTANGLE / SQUARE ) à ShapeFactory pour obtenir le type d'objet dont il a besoin.

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.wj.factoryPattern</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">com.wj.factoryPattern.FactoryPatternDemo</node>
+    <node x="0.0" y="98.0">com.wj.factoryPattern.ShapeFactory</node>
+    <node x="0.0" y="196.0">com.wj.factoryPattern.shape</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="206.0" y="88.0" />
+  <SelectedNodes>
+    <node>com.wj.factoryPattern.shape</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
