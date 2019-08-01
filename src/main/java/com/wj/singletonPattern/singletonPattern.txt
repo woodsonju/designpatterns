@@ -1,0 +1,16 @@
+Le modèle Singleton est l’un des modèles de conception les plus simples de Java. 
+Ce type de modèle de conception est associé à un modèle de création, car il constitue l’un des meilleurs moyens de créer
+un objet.
+
+Ce modèle implique une seule classe qui est chargée de créer un objet tout en s'assurant que seul un objet unique est créé. 
+Cette classe fournit un moyen d'accéder à son seul objet auquel on peut accéder directement sans qu'il soit nécessaire 
+d'instancier l'objet de la classe.
+
+LA MISE EN OEUVRE
+Nous allons créer une classe SingleObject . La classe SingleObject a son constructeur privé et une instance statique 
+d'elle-même.
+La classe SingleObject fournit une méthode statique pour obtenir son instance statique dans le monde extérieur. 
+SingletonPatternDemo , notre classe de démonstration utilisera la classe SingleObject pour obtenir un objet SingleObject .
+
+
+
