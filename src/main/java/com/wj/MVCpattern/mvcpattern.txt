@@ -1,0 +1,20 @@
+MVC Pattern signifie Model-View-Controller Pattern. Ce modèle est utilisé pour séparer les aspects traitement, 
+données et présentation, et de définir les interactions entre ces trois aspects. 
+
+MODELE
+Le modèle représente un objet ou un JAVA POJO portant des données. Il peut également avoir une logique pour
+mettre à jour le contrôleur si ses données changent.
+
+VUE
+La vue représente la visualisation des données contenues dans le modèle
+
+CONTROLEUR
+Le contrôleur agit à la fois sur le modèle et sur la vue. Il contrôle le flux de données dans l'objet  modèle et met
+à jour la vue lorsque les données changent. Il garde la vue et le modèle séparés.
+
+LA MISE EN OEUVRE
+Nous allons créer un objet Student servant de modèle. StudentView sera une classe de vues pouvant imprimer les détails 
+de l’étudiant sur la console et StudentController est la classe de contrôleur responsable du stockage des données dans 
+l’ objet Student et de la mise à jour de la vue StudentView en conséquence.
+
+MVCPatternDemo , notre classe de démonstration, utilisera StudentController pour démontrer l'utilisation du modèle MVC
